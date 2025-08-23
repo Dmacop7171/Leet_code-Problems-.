@@ -1,3 +1,23 @@
+// 🔹 What is Radix Sort?
+
+// Radix Sort is a non-comparative sorting algorithm that sorts numbers digit by digit (or character by character, for strings).
+// It uses a stable sorting algorithm (usually Counting Sort) as a subroutine.
+
+// 🔹 How it Works (Base 10 Example)
+
+// Suppose we want to sort [170, 45, 75, 90, 802, 24, 2, 66].
+
+// Find the max element → 802 → it has 3 digits → we’ll sort digit by digit.
+
+// Sort by least significant digit (LSD → 1’s place)
+// Numbers sorted: [170, 90, 802, 2, 24, 45, 75, 66]
+
+// Sort by next digit (10’s place)
+// Numbers sorted: [802, 2, 24, 45, 66, 170, 75, 90]
+
+// Sort by most significant digit (100’s place)
+// Final sorted: [2, 24, 45, 66, 75, 90, 170, 802]
+
 #include <iostream>
 using namespace std;
 
