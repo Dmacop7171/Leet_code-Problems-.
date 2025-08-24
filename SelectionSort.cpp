@@ -48,3 +48,16 @@ int main() {
     for(int x : arr) cout << x << " ";
     return 0;
 }
+
+// ⏱️ Time Complexity
+
+// Best case: O(n²)
+
+// Worst case: O(n²)
+
+// Average case: O(n²)
+
+// Space complexity: O(1) (in-place)
+
+// 👉 Simple but inefficient compared to QuickSort, MergeSort, HeapSort.
+// It’s mainly used for educational purposes.
