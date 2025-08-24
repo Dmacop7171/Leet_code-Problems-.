@@ -1,48 +1,49 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-class Node {
-public:
+// Definition for a binary tree node
+struct Node {
     int data;
-    int height;
     Node* left;
     Node* right;
-
-    // Constructor to create a new node
     Node(int val) {
         data = val;
-        height = -1;
-        left = nullptr;
-        right = nullptr;
+        left = right = NULL;
     }
 };
 
-void calculateHeights(Node* root) {
-    // Base case: if the node is null, return
-    if (root == nullptr) {
-        return -1;
-    }
+// Function to calculate height of each node
+int calculateHeight(Node* root, unordered_map<Node*, int> &heightMap) {
+    if (root == NULL) return 0;
 
-    // Recursively calculate heights for the left and right subtrees
-    int left_height = calculateHeights(root->left, heights);
-    int right_height = calculateHeights(root->right, heights);
+    int leftHeight = calculateHeight(root->left, heightMap);
+    int rightHeight = calculateHeight(root->right, heightMap);
 
-    root->height = 1 + max(left_height, right_height);
-    return root->height;
+    int currHeight = 1 + max(leftHeight, rightHeight);
+    heightMap[root] = currHeight;  // store height of current node
+
+    return currHeight;
 }
 
 int main() {
+    // Constructing a sample Binary Tree
+    Node* root = new Node(1);
+    root->left = new Node(2);
+    root->right = new Node(3);
+    root->left->left = new Node(4);
+    root->left->right = new Node(5);
 
-    Node* root = new Node(10);
-    root->left = new Node(20);
-    root->right = new Node(30);
-    root->left->left = new Node(40);
-    root->left->right = new Node(50);
-    root->right->right = new Node(60);
-    root->left->left->left = new Node(70);
+    unordered_map<Node*, int> heightMap;
 
-    // Calculate the heights of all nodes
-    calculateHeights(root, heights);
+    calculateHeight(root, heightMap);
+
+    // Printing height of each node
+    cout << "Height of each node:\n";
+    cout << "Node " << root->data << " -> " << heightMap[root] << "\n";
+    cout << "Node " << root->left->data << " -> " << heightMap[root->left] << "\n";
+    cout << "Node " << root->right->data << " -> " << heightMap[root->right] << "\n";
+    cout << "Node " << root->left->left->data << " -> " << heightMap[root->left->left] << "\n";
+    cout << "Node " << root->left->right->data << " -> " << heightMap[root->left->right] << "\n";
 
     return 0;
 }
