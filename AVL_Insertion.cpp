@@ -164,14 +164,14 @@ int main() {
     return 0;
 }
 
-📌 Example Walkthrough
+// 📌 Example Walkthrough
 
-Insert order: 10, 20, 30
+// Insert order: 10, 20, 30
 
-Insert 10 → Balanced
+// Insert 10 → Balanced
 
-Insert 20 → Still balanced
+// Insert 20 → Still balanced
 
-Insert 30 → Unbalanced at root (10) with BF = -2 (RR case) → Left Rotation
+// Insert 30 → Unbalanced at root (10) with BF = -2 (RR case) → Left Rotation
 
-Balanced tree: 20 as root, 10 left, 30 right
+// Balanced tree: 20 as root, 10 left, 30 right
