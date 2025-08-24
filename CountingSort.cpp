@@ -77,5 +77,5 @@ int main() {
 // Space: O(n + k)
 
 // Stable: Yes
-
-Best Use Case: When input is integers within a small range (e.g., student marks, ages, etc.).
+// 
+// Best Use Case: When input is integers within a small range (e.g., student marks, ages, etc.).
