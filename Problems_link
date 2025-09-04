@@ -1,4 +1,43 @@
-Maximum Binary Tree: https://leetcode.com/problems/maximum-binary-tree/submissions/1743252870/
-Binary Tree Pruning: https://leetcode.com/problems/binary-tree-pruning/submissions/1743286580/
-Merge Binary Trees: https://leetcode.com/problems/merge-two-binary-trees/submissions/1743331627/
-Balance a Binary Search Tree: https://leetcode.com/problems/balance-a-binary-search-tree/submissions/1743489226/
+ --> Advance Data Structure 
+      A) Disjoint Sets :
+        1.) Find no. of Provinces           = https://leetcode.com/problems/number-of-provinces/description/?envType=problem-list-v2&envId=union-find
+        2.) Longest Consecutive Sequence    = https://leetcode.com/problems/longest-consecutive-sequence/description/?envType=problem-list-v2&envId=union-find
+        3.) Surrounded Regions              = https://leetcode.com/problems/surrounded-regions/description/?envType=problem-list-v2&envId=union-find
+        4.) Path With Minimum Effort        = https://leetcode.com/problems/path-with-minimum-effort/description/?envType=problem-list-v2&envId=union-find
+      
+      B) Implementing Sets :
+        1.) Design HashSet            ***** = https://leetcode.com/problems/design-hashset/description/
+    
+      C) Self Adjusting Trees :
+        1.) Balance a Binary Search Tree    = https://leetcode.com/problems/balance-a-binary-search-tree/description/
+
+      D) Design Skip Lisr                   = https://leetcode.com/problems/design-skiplist/description/
+
+--> Divide And Conquer 
+      A) Finding K-th Smallest Element (Order Statistics)
+        1.) Kth Smallest Element in a BST   =  https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+
+--> BackTracking  
+        1.) N-Queens                        = https://leetcode.com/problems/n-queens/description/
+        2.) Combination Sum                 = https://leetcode.com/problems/combination-sum/description/
+        3.) Word Search               ***** = https://leetcode.com/problems/word-search/description/
+
+--> Hashing 
+      A.) Simple :
+        1.) 2-Sum                          = https://leetcode.com/problems/two-sum/description/
+        2.) Subarray Sum Equals K          = https://leetcode.com/problems/subarray-sum-equals-k/description/
+        3.) Top K frequent elements        = https://leetcode.com/problems/top-k-frequent-elements/
+        4.) Longest substring no repeating = https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+        5.) Longest Consecutive Sequence   = https://leetcode.com/problems/longest-consecutive-sequence/description/?envType=problem-list-v2&envId=union-find
+
+
+--> Searching Techniques :
+        1.) Maximum Binary Tree            = https://leetcode.com/problems/maximum-binary-tree/description/
+        2.) Binary Tree Pruning            = https://leetcode.com/problems/binary-tree-pruning/
+
+--> Graph 
+        1.) Cheapest filght with k stops   = https://leetcode.com/problems/cheapest-flights-within-k-stops/description/
+        2.) Number of Islands              = https://leetcode.com/problems/number-of-islands/description/
+        3.) Course Schedule                = https://leetcode.com/problems/course-schedule/description/
+        4.) Course Schedule II             = https://leetcode.com/problems/course-schedule-ii/description/
+        5.) 
