@@ -11,7 +11,7 @@
       C) Self Adjusting Trees :
         1.) Balance a Binary Search Tree    = https://leetcode.com/problems/balance-a-binary-search-tree/description/
 
-      D) Design Skip Lisr                   = https://leetcode.com/problems/design-skiplist/description/
+      D) Design Skip List             ***** = https://leetcode.com/problems/design-skiplist/description/
 
 --> Divide And Conquer 
       A) Finding K-th Smallest Element (Order Statistics)
@@ -37,7 +37,8 @@
 
 --> Graph 
         1.) Cheapest filght with k stops   = https://leetcode.com/problems/cheapest-flights-within-k-stops/description/
-        2.) Number of Islands              = https://leetcode.com/problems/number-of-islands/description/
-        3.) Course Schedule                = https://leetcode.com/problems/course-schedule/description/
-        4.) Course Schedule II             = https://leetcode.com/problems/course-schedule-ii/description/
-        5.) 
+        2.) Course Schedule                = https://leetcode.com/problems/course-schedule/description/
+        3.) Course Schedule II             = https://leetcode.com/problems/course-schedule-ii/description/
+        4.) Number of Islands              = https://leetcode.com/problems/number-of-islands/description/
+        5.) Number of Islands II           = https://www.naukri.com/code360/problems/number-of-islands-ii_1266048
+      ..6.) Account Merge                  = https://www.geeksforgeeks.org/problems/account-merge/1
