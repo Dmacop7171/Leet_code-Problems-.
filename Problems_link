@@ -36,11 +36,14 @@
         2.) Binary Tree Pruning            = https://leetcode.com/problems/binary-tree-pruning/
 
 --> Graph 
-        1.) Cheapest filght with k stops   = https://leetcode.com/problems/cheapest-flights-within-k-stops/description/
-        2.) Course Schedule                = https://leetcode.com/problems/course-schedule/description/
-        3.) Course Schedule II             = https://leetcode.com/problems/course-schedule-ii/description/
-        4.) Number of Islands              = https://leetcode.com/problems/number-of-islands/description/
-        5.) Number of Islands II           = https://www.naukri.com/code360/problems/number-of-islands-ii_1266048
-      ..6.) Account Merge                  = https://www.geeksforgeeks.org/problems/account-merge/1
-      ..7.) Making Larger Island           = https://leetcode.com/problems/making-a-large-island/
-        8.) Most Stones Removed With Same Row or Column = https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+        1.) Cheapest filght with k stops                  = https://leetcode.com/problems/cheapest-flights-within-k-stops/description/
+        2.) Course Schedule                               = https://leetcode.com/problems/course-schedule/description/
+        3.) Course Schedule II                            = https://leetcode.com/problems/course-schedule-ii/description/
+        4.) Number of Islands                             = https://leetcode.com/problems/number-of-islands/description/
+        5.) Number of Islands II                          = https://www.naukri.com/code360/problems/number-of-islands-ii_1266048
+      ..6.) Account Merge                                 = https://www.geeksforgeeks.org/problems/account-merge/1
+      ..7.) Making Larger Island                          = https://leetcode.com/problems/making-a-large-island/
+        8.) Most Stones Removed With Same Row or Column   = https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+      ..9.) Strongly Connected - kosajaru's               = https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+      .10.) Articulation                                  = https://www.geeksforgeeks.org/problems/articulation-point-1/1
+      .11.) Bridges in Graph                              = https://www.geeksforgeeks.org/problems/bridge-edge-in-graph/1
